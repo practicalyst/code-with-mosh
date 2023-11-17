@@ -15,7 +15,7 @@ const p2 = new Promise((resolve) => {
 const p3 = new Promise((resolve, reject) => {
   setTimeout(() => {
     console.log("Async operartion 3...");
-    reject(new Error('Something happened...'));
+    reject(new Error("Something happened..."));
   }, 2000);
 });
 
